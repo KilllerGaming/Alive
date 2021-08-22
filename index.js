@@ -18,12 +18,6 @@ client.giveawaysManager = new GiveawaysManager(client, {
     }
 });
 const prefix = '!!';
-const arrayOfStatus = [
-  `!!help`,
-  `Alpha`,
-  `KillerGaming`
-];
-let index = 0;
 
 client.giveawaysManager.on("giveawayReactionAdded", (giveaway, member, reaction) => {
     console.log(`${member.user.tag} entered giveaway #${giveaway.messageID} (${reaction.emoji.name})`);
@@ -78,11 +72,16 @@ client.on('ready', () => {
   const mongo_url = 'mongodb+srv://Developer:Developer@developer.ux1cv.mongodb.net/Data';
   console.log("Success - Bot is running");
 
+  const arrayOfStatus = [
+  `!!help`,
+  `Alpha`,
+  `KillerGaming`
+  ];
+  let index = 0;
   setInterval(() => {
-    
-    if(index === arrayOfStatus.lenght) index = 0;
+    if(index === arrayOfStatus.length) index = 0;
     const status = arrayOfStatus[index];
-    client.user.setActivity(status, {type: 'LISTENING'}).catch(console.error)
+    client.user.setActivity(status, {type: 'LISTENING'})
     index++;
   }, 5000);
 
