@@ -17,10 +17,10 @@ client.giveawaysManager = new GiveawaysManager(client, {
         reaction: "🎉"
     }
 });
-const prefix = 'd!';
+const prefix = '!!';
 const arrayOfStatus = [
-  `d!help`,
-  `Developers`,
+  `!!help`,
+  `Alpha`,
   `KillerGaming`
 ];
 let index = 0;
