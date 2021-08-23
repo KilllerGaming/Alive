@@ -47,6 +47,7 @@
     "superagent": "^6.1.0",
     "tinyurl": "^1.1.7",
     "uninstall": "0.0.0",
-    "weather-js": "^2.0.0"
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^4.9.1"
   }
 }

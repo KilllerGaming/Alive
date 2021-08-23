@@ -9,7 +9,7 @@ module.exports = {
 			message.channel.send('Sorry you don\'t have permission.')
 		} else if(message.member.hasPermission('VIEW_AUDIT_LOG')){
 			const ruleembed = new MessageEmbed()
-			.setAuthor('Rules For The Developers', 'https://cdn.discordapp.com/attachments/797823926956195861/877054744634478602/particles_2.gif')
+			.setAuthor('Rules For α・Alpha  Developers & Designs!', 'https://cdn.discordapp.com/attachments/797823926956195861/878951081818877963/3ae970653b70da3d2f0108cd70f82a73.gif')
 			.setTitle('Some Rules You Need to Follow')
 			.addField('Be Respectful', 'You must respect all users, regardless of your liking towards them.')
 			.addField('No Excessive Cursing', 'Cursing is allowed until you are under the limits, though if you curse out of the limits then you can get a punishment.')

@@ -13,8 +13,8 @@ module.exports = {
 
 
         const help = new MessageEmbed()
-        .setTitle('Developer Bot')
-        .setDescription('Command List For Developer\'s Bot')
+        .setTitle('Alive Bot')
+        .setDescription('Command List For Alive Bot')
         .addField('Economy Commands', '``Balance``,``Buy``,``Daily``,``Deposit``,``Inventory``,``Pay``,``Rob``,``Store``, \n ``Withdraw``,``Work``')
         .addField('Fun Commands', '``8 Ball``,``Advice``,``DM``,``FacePalm``,``Kiss``,``Meme``,``Shit``,``Slap``,``Triggered``')
         .addField('Admin Commands', '``AddRole``,``Ban``,``Clear``, \n ``DisableWelcome``,``IdBan``,``Kick``,``LockChannel``,``Mute``,``Say``,``SetWelcome``, \n ``Slowmode``,``Unban``,``UnlockChannel``,``Unmute``,``Unwarn``,``Warn``,``Warnings``')
